@@ -16,7 +16,7 @@ class MainTest {
 
     @Test
     void alarmTestUeber30(){
-        int num1 = 31;
+        int num1 = 30;
         String actual = Main.checkAnzahl(num1);
         assertEquals("Zu viele Personen", actual);
         //System.out.println("Die Anzahl der Personen ist: " + num1);
